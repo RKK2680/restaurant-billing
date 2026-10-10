@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-billing",
+  "version": "1.0.0",
+  "description": "Restaurant ordering and billing system (Express + SQLite)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed:reset": "node src/index.js --reset",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=22.13" },
+  "license": "MIT",
+  "dependencies": { "express": "^4.21.2" }
+}
